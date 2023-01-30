@@ -1,0 +1,22 @@
+Cosas obligatorios
++ Script main que reinicie la base de datos
++ Trigger para limitar número de imágenes por reporte
++ Varias pruebas
+    + De los triggers
+    + De los procedimientos
+    + De las funciones
++ Falta trigger que use delete
++ Falta uso de cursores
+
+Cosas no obligatorias
+- Crear funciones con un objetivo distinto
+- Crear un script para insertar datos en la base de datos
+- Pruebas unitarias: pruebas que solo afectan un archivo
+    Pruebas de unidad: leer y escribir archivo
+- Usar union, intersect
+
++ pasar de Servicio_recarga.servicio_banco a nombre_banco en diagrama relacional
++ pasar de servicio_id a servicio_recarga_id  en diagrama relacional
++ Quitar los null de la relación muchos a muchos scooter_zona
++ servicio tiene un texto encima
++ La fecha_status se volvió opcional
